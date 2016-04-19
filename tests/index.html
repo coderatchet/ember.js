@@ -40,9 +40,7 @@
         window.Ember = {
           testing: true
         };
-        window.ENV = window.ENV || {
-          _ENABLE_LEGACY_VIEW_SUPPORT: true
-        };
+        window.ENV = window.ENV || {};
 
         window.printTestCounts = function() {
           var passing = $("li[id^='qunit-'].pass").length;
